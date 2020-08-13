@@ -1,0 +1,488 @@
+/* LESS Document */
+
+
+
+/* ............................................ */
+/* 1300px */
+
+@media screen and (max-width: 1300px) {
+
+	#sign_tutorials {
+		a.tutorial {
+			width: 45%;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+/* ............................................ */
+/* 1100px */
+
+@media screen and (max-width: 1100px) {
+
+	#sign_hero img.globe {
+		left: -45px;
+	}
+	#sign_hero img.capture {
+		height: 145%;
+		right: 41%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ............................................ */
+/* 950px */
+
+@media screen and (max-width: 950px) {
+
+	#sign_tutorials {
+		a.tutorial {
+			width: 90%;
+		}
+	}
+	#sign_resources {
+		a.resource {
+			width: 70%;
+		}
+		a.resource:nth-child(odd) {
+			padding: 15px 12px 15px 80px;
+			text-align: left;
+		}
+		a.resource:nth-child(odd) svg {
+			left: 15px;
+			right: auto;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ............................................ */
+/* 900px */
+
+@media screen and (max-width: 900px) {
+
+	.content {
+		margin: 0 30px;
+	}
+
+	header {
+		height: 65px;
+		a {
+			&#adobesign {
+				top: 15px;
+				transform: scale(.75);
+				transform-origin: top left;
+			}
+		}
+		#mobile_menu {
+			display: block;
+		}
+	}
+
+	#sign_hero {
+		margin-top: 65px;
+
+		#request_access {
+			right: 25px;	
+		}
+		img.globe {
+			left: -45px;
+		}
+		img.capture {
+			height: 145%;
+			right: 26%;
+		}
+	}
+
+	// hide nav
+	nav {
+		border-width: 1px;
+		box-shadow: 0px 0px 1px rgba(0,0,0,0);
+		font-size: 1.2rem;
+		top: 70px;
+		right: -160px;
+
+
+		a {
+			margin-left: 18px;
+			color: #000;
+		}
+		a + a {
+			margin-bottom: 15px;
+		}
+		a.selected {
+			&::before {
+				display: none;
+			}
+		}
+	}
+	
+	&[data-menu="opened"] nav {
+		box-shadow: 10px 35px 1px rgba(0,0,0,.08);
+		transform: translateX(-158px);
+	}
+	
+	&[data-menu="opened"] #mobile_menu svg .line1 {
+		transform: translateX(-10px) translateY(14px) rotate(45deg);
+	}
+	&[data-menu="opened"] #mobile_menu svg .line2 {
+		opacity: 0;
+	}
+	&[data-menu="opened"] #mobile_menu svg .line3 {
+		transform: translateX(-10px) translateY(-12px) rotate(-45deg);
+	}
+	
+	// resouces	
+	#sign_resources {
+		&::after {
+			// glasses graphic
+			transform: rotate(65deg) scale(.65);
+			right: 0px;
+		}
+	}
+
+	// stack the use cases
+	#sign_use_cases {
+		
+		.use_cases_container {
+			display: block;
+			text-align: left;
+			margin: 0 30px;
+		}
+		.use_case {
+			width: auto;
+			padding: 0px 0px 20px 115px;
+			position: relative;
+			margin-bottom: 20px;
+		}
+		.use_case > img {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 90px;
+		}
+		blockquote {
+			margin-left: 20px;
+			padding-bottom: 0;
+		}
+		blockquote::before {
+			font-size: 3rem;
+			transform: translateX(-23px) translateY(-.4rem);
+		}
+		blockquote::after {
+			font-size: 3rem;
+			transform: translateY(.3rem);
+		}
+		.trigger {
+			transform: translateX(20px);
+		}
+
+		
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ............................................ */
+/* 740px */
+
+@media screen and (max-width: 740px) {
+
+	#sign_hero {
+		height: 200px;
+		
+		#welcome {
+			font-size: 6rem;
+			left: 30px;
+		}
+		#request_access {
+			top: 15px;
+			width: 40%;
+		}
+		img.globe {
+			height: 95%;
+			left: -8px;
+		}
+		img.capture {
+			right: 38%;
+		}
+	}
+	
+	#sign_intro {
+		font-size: 1.3rem;
+		line-height: 1.25;
+		padding: 12px 20px 0 16px;
+	}
+	
+	#sign_tutorials {
+		padding-top: 10px;
+		
+		a.tutorial {
+			margin: 8px;
+		}
+	}
+	
+	#sign_resources {
+		a.resource:nth-child(odd),
+		a.resource:nth-child(even) {
+			margin: 6px;
+			padding: 8px 12px 8px 70px;
+			min-height: 50px;
+			
+			svg {
+				width: 32px;
+			}
+			
+		}
+	}	
+	
+	#sign_impact {
+
+		.impact {
+			width: 30%;
+
+			div {
+
+				&.impact_value {
+					color: #000;
+					position: static;
+				}
+			}
+			
+		}
+	}
+	
+	#sign_statistics #adobe_sign_transaction_chart_large {
+		display: none;
+	}
+	#sign_statistics #adobe_sign_transaction_chart_small {
+		display: block;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+/* ............................................ */
+/* 590px */
+
+@media screen and (max-width: 590px) {
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	.content {
+		margin: 0 15px;
+	}
+
+	header {
+		height: 65px;
+		a {
+/*
+			&#adobe {
+				transform: scale(.6);
+			}
+*/
+			&#adobesign {
+				top: 15px;
+				transform: scale(.65);
+			}
+		}
+		#mobile_menu {
+			top: 15px;
+		}
+	}
+	
+	#sign_hero {
+		margin-top: 65px;
+		img {
+			&.globe {
+				display: none;
+			}
+			&.capture {
+				height: 120%;
+				transform: rotate(32deg);
+				right: 47%;
+				top: -6%;
+			}
+		}
+		#welcome {
+			font-size: 3.7rem;
+			left: 10px;
+			letter-spacing: 1px;
+		}
+		#request_access {
+			padding: 8px 8px 12px 8px;
+			h3 {
+				font-size: 1.3rem;
+				line-height: 1.1;
+			}
+			a.btn {
+				transform: translateY(27px);
+			}
+		}
+	}
+
+	#sign_intro {
+		font-size: 1.15rem;
+		line-height: 1;
+		padding-left: 5px;
+	}
+
+	// resouces	
+	#sign_resources {
+		a.resource {
+			width: 90%;
+		}
+		&::after {
+			transform: rotate(65deg) scale(.5);
+			right: -80px;
+		}
+	}
+
+	#sign_statistics {
+		#adobe_sign_snapshots {
+			display: block;
+			margin-bottom: 45px;
+		}
+		#adobe_sign_snapshots .snapshot {
+			width: auto;
+			margin-bottom: 20px;
+		}
+		#adobe_sign_snapshots .snapshot_value {
+			font-size: 2.5rem;
+			margin-bottom: 0px;
+		}
+		#adobe_sign_snapshots .snapshot_label {
+			font-size: 1rem;
+			padding: 0px;
+		}
+	}
+	
+	#sign_impact {
+		.impact_container {
+			display: block;
+			padding: 0px;
+		}
+		.impact {
+			width: auto;
+			padding: 32px 0px 0px 135px;
+			//border: 1px solid #000;
+			min-height: 100px;
+			margin-left: 25px;
+			text-align: left;
+			
+			div {
+				&.impact_value {
+					position: static;
+				}
+				&.impact_label {
+					margin-top: -4px;
+				}
+				&.impact_chart {
+					height: 120px;
+					width: 120px;
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+			}
+		}
+	}
+	
+
+	// adjust use cses
+	#sign_use_cases {
+		
+		.use_cases_container {
+			margin: 0 0 0 20px;
+			padding: 15px 0 0 0;
+		}
+		.use_case {
+			padding: 105px 0px 20px 0px;
+			margin-bottom: 15px;
+		}
+		.use_case > img {
+			left: -10px;
+		}
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+

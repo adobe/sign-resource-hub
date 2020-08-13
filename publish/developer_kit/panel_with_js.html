@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		
+		<style type="text/css">
+			.collapsible_panel .trigger {
+				color: #00f;
+			}
+			.collapsible_panel .content_container {
+				height: 0px;
+				overflow: hidden;
+				transition: height 500ms ease-out;
+			}
+			.collapsible_panel.opened .trigger {
+				color: #0f0;
+			}
+			.collapsible_panel.opened .content_container {
+				height: auto;
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+
+		<div id="adobe_sign_use_cases">
+				
+			<div class="use_case">
+				<img src="meridith_stotzner.jpg">
+				<h3>Meredith Payne Stotzner</h3>
+				<blockquote>
+					I use Adobe Sign Web Forms to collect digital signatures for our user interviews.
+				</blockquote>
+				<div class="collapsible_panel">
+					<div class="trigger">
+						<p>Learn more</p>
+					</div>
+					<div class="content_container">
+						<div class="panel_content">
+							<p>Depending on the purchase, contracts were passing through 4 different desks for approval. To complicate matters, some departments had to sign twice: once to approve spend, and then later to review and approve contract terms. To transform their operations, procurement worked with the legal department to consolidate the contract and legal approval process. The combination of process improvement and integration of Adobe Sign resulted in a total contract cycle reduction of 73%. Using Adobe Sign, procurement team members can easily upload contract templates from a shared drive and add signature fields. By switching from ink signatures to electronic documents, procurement has reduced its consumption of paper and printing supplies by more than 80%.</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+			
+			<div class="use_case">
+				<img src="meridith_stotzner.jpg">
+				<h3>Meredith Payne Stotzner</h3>
+				<blockquote>
+					I use Adobe Sign Web Forms to collect digital signatures for our user interviews.
+				</blockquote>
+				<div class="collapsible_panel">
+					<div class="trigger">
+						<p>Learn more</p>
+					</div>
+					<div class="content_container">
+						<div class="panel_content">
+							<p>Depending on the purchase, contracts were passing through 4 different desks for approval. To complicate matters, some departments had to sign twice: once to approve spend, and then later to review and approve contract terms. To transform their operations, procurement worked with the legal department to consolidate the contract and legal approval process. The combination of process improvement and integration of Adobe Sign resulted in a total contract cycle reduction of 73%. Using Adobe Sign, procurement team members can easily upload contract templates from a shared drive and add signature fields. By switching from ink signatures to electronic documents, procurement has reduced its consumption of paper and printing supplies by more than 80%.</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+			
+		</div>
+
+
+		<script type="text/javascript">
+
+			function collapsible_panels_toggle(event){
+
+				event.currentTarget.closest('.collapsible_panel').classList.toggle('opened');
+
+				//var content_height = event.currentTarget.querySelector('.panel_content').offsetHeight;
+				//var content_height = event.currentTarget.closest('.collapsible_panel').querySelector('.panel_content').offsetHeight;
+
+				//var content_container = event.currentTarget.closest('.collapsible_panel').querySelector('.content_container');
+
+				//content_container.style.height = content_height+'px';
+				//content_container.style.height = 'auto';
+
+				//setTimeout(500,function(){
+					//content_container.style.height = 'auto';
+				//});
+				
+				console.log( content_height );
+				
+			}
+
+			function collapsible_panels_activate(){
+				// find all the panels
+				var panels = document.getElementsByClassName('collapsible_panel');
+				// number them and add click events
+				for (i = 0; i < panels.length; i++) {
+					// number the panels
+					panels[i].setAttribute('data-panel-number', i);
+					// add click events
+					panels[i].querySelector('.trigger').addEventListener('click', collapsible_panels_toggle );
+				}
+			}
+			
+			// run
+			collapsible_panels_activate();
+
+		</script>
+		
+		
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100">
+	<polygon class="base_stroke" points="7.916 91.343 7.916 8.657 92.084 8.657 92.084 91.343 92.084 91.343 8.157 91.343 7.916 91.343"/>
+	<rect class="base_stroke" x="21.191" y="21.933" width="26.309" height="30.067"/>
+	<line class="base_stroke" x1="60.775" y1="40.725" x2="76.567" y2="40.725"/>
+	<line class="base_stroke" x1="60.775" y1="52" x2="76.567" y2="52"/>
+	<line class="base_stroke" x1="22.949" y1="64.792" x2="76.567" y2="64.792"/>
+	<line class="base_stroke" x1="22.949" y1="76.067" x2="76.567" y2="76.067"/>
+</svg>

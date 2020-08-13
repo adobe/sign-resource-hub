@@ -1,0 +1,126 @@
+{
+	"snapshot": [
+		{
+			"label": "Median Time of Completed Transaction (minutes)",
+			"value": 201.5
+		},
+		{
+			"label": "Avg. Monthly Number Transactions",
+			"value": 25101
+		},
+		{
+			"label": "Total Sign Transactions",
+			"value": 780926
+		}
+	],
+	"impact": [
+		{
+			"label": "Gallons of water saved",
+			"value": 175032,
+			"goal": 250000
+		},
+		{
+			"label": "Pounds of waste saved",
+			"value": 9863,
+			"goal": 22000
+		},
+		{
+			"label": "Pounds of wood saved",
+			"value": 65788,
+			"goal": 200000
+		}
+	],
+	"transactions": [
+		{
+			"month": "APR 18",
+			"our_documents": 543,
+			"avg_documents": 1700
+		},
+		{
+			"month": "MAY 18",
+			"our_documents": 1143,
+			"avg_documents": 1900
+		},
+		{
+			"month": "JUL 18",
+			"our_documents": 1943,
+			"avg_documents": 2100
+		},
+		{
+			"month": "JUN 18",
+			"our_documents": 3143,
+			"avg_documents": 2400
+		},
+		{
+			"month": "AUG 18",
+			"our_documents": 4743,
+			"avg_documents": 1700
+		},
+		{
+			"month": "SEP 18",
+			"our_documents": 5743,
+			"avg_documents": 1700
+		},
+		{
+			"month": "OCT 18",
+			"our_documents": 8982,
+			"avg_documents": 3200
+		},
+		{
+			"month": "NOV 18",
+			"our_documents": 12510,
+			"avg_documents": 4443
+		},
+		{
+			"month": "DEC 18",
+			"our_documents": 19001,
+			"avg_documents": 5230
+		},
+		{
+			"month": "JAN 19",
+			"our_documents": 22501,
+			"avg_documents": 6500
+		},
+		{
+			"month": "FEB 19",
+			"our_documents": 26481,
+			"avg_documents": 7200
+		},
+		{
+			"month": "MAR 19",
+			"our_documents": 33480,
+			"avg_documents": 10890
+		},
+		{
+			"month": "APR 19",
+			"our_documents": 42001,
+			"avg_documents": 12500
+		},
+		{
+			"month": "MAY 19",
+			"our_documents": 44001,
+			"avg_documents": 17900
+		},
+		{
+			"month": "JUN 19",
+			"our_documents": 46001,
+			"avg_documents": 21500
+		},
+		{
+			"month": "JUL 19",
+			"our_documents": 51001,
+			"avg_documents": 23500
+		},
+		{
+			"month": "AUG 19",
+			"our_documents": 53001,
+			"avg_documents": 26500
+		},
+		{
+			"month": "SEP 19",
+			"our_documents": 58001,
+			"avg_documents": 28500
+		}
+	]
+
+}
