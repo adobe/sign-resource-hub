@@ -1,44 +1,26 @@
-# Open Source Starter Repo
+# Adobe Sign Resource Hub
 
 This repository contains templates for project documentation, ensuring necessary
 legal and contributor documentation is explicit. All sections below in this `README.md`
 should be considered a template for a typical project `README.md`.
 
-## PROJECT NAME
+## SIGN RESOURCE HUB
 
-A short description of what this project does.
+Turnkey Adobe Sign Resource Hub
+
+![Screenshot](docs/resource-hub-screenshot.png)
 
 ## Goals
 
-It is a good idea to provide a mission statement for your project, enshrining
-what the project wants to accomplish so that as more people join your project
-everyone can work in alignment.
-
-## Non-Goals
-
-It is also a good idea to declare what are _not_ goals of the project to prevent
-potential feature creep.
+It's critical to enable an organization's users to fully leverage tools available.  This is a turnkey resource hub that is designed to be hosted on client systems.
 
 ### Installation
 
-Instructions for how to download/install the code onto your machine.
+This codebase is currently dependent on Prepros & should work out of the box.  It's also supposed to work with CodeKit, but I have not tested that yet.
 
-Example:
-```
-npm install myProject --save
-```
+If you are going to modify this site, do so in the `source` dir.
 
-### Usage
-
-Usage instructions for your code.
-
-Example:
-
-```
-var myMod = require('mymodule');
-
-myMod.foo('hi');
-```
+To deploy, there is a flat HTML site in the `publish` dir.
 
 ### Contributing
 
